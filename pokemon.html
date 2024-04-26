@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Games by Nintendo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333; /* Adjusted text color for better contrast */
+        }
+        header {
+            background-color: #0080ff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .game-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .game-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .game-card img {
+            width: 100%;
+            height: auto;
+        }
+        .game-card h3 {
+            margin-top: 10px;
+        }
+        .game-card p {
+            margin-top: 10px;
+        }
+        .game-card button {
+            background-color: #0080ff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .game-card button:hover {
+            background-color: #0050b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pokémon Games by Nintendo</h1>
+        <button onclick="location.reload();">Home</button>
+    </header>
+    <div class="game-container">
+        <!-- Example Game Card -->
+        <div class="game-card">
+            <img src="path/to/game-thumbnail.jpg" alt="Game Thumbnail">
+            <h3>Game Title</h3>
+            <p>Game Description</p>
+            <button>Play</button>
+        </div>
+        <!-- Add more game cards as needed -->
+    </div>
+    <script>
+        // Add any JavaScript functionality here
+    </script>
+</body>
+</html>
